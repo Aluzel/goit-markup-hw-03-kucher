@@ -67,13 +67,13 @@ body {
 /* Хедер  */
 
 .headcont {
-    padding-top: 24px;
-    padding-bottom: 25px;
     display: flex;
 }
 .header {
     background-color: #ffffff;
     border-bottom: 1px solid #ECECEC;
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 .head-nav {
@@ -215,7 +215,6 @@ body {
 
 .container-s3 {
     padding: 94px 0;
-
 }
 
 .section-h2 {
@@ -276,6 +275,7 @@ body {
 
     color: #757575;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .s4-content {
@@ -314,8 +314,6 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-
-    margin-top: 9px;
 }
 
 .footer-items {
@@ -374,8 +372,6 @@ body {
 
 .port-but {
     align-items: center;
-    padding-top: 94px;
-    padding-bottom: 94px;
     display:flex;
     justify-content: center;
 }
@@ -384,16 +380,9 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 30px;
+    margin-top: 50px;
+    gap: 30px;
 } 
-
-.portphoto {
-    margin-right: 30px;
-}
-.portphoto-t {
-    margin-right: 30px;
-    margin-top: 30px;
-}
 
 .phototext {
     padding: 20px 24px;
